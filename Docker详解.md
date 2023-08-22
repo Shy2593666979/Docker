@@ -439,9 +439,9 @@ tomcat
 
 - 参数说明：
 
-  - **-p 8080:8080：**将容器的8080端口映射到主机的8080端口
+   **-p 8080:8080：** 将容器的8080端口映射到主机的8080端口
 
-    **-v $PWD:/usr/local/tomcat/webapps：**将主机中当前目录挂载到容器的webapps
+   **-v $PWD:/usr/local/tomcat/webapps：** 将主机中当前目录挂载到容器的webapps
 
 ### 部署Nginx
 
